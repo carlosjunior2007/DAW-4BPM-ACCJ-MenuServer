@@ -1,0 +1,102 @@
+/* Estilos generales */
+
+/* Botton navegavion */
+.top_butons {
+  margin: 10px;
+}
+
+.top_butons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.top_butons a button {
+  border: none;
+  padding: 10px;
+  color: white;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+.top_butons .sig {
+  background-color: rgb(0, 133, 0);
+}
+
+.top_butons .menu {
+  background-color: rgb(30, 82, 185);
+}
+
+.top_butons .back {
+  background-color: rgb(137, 24, 24);
+}
+
+/* card */
+
+.card *{
+  box-shadow: none;
+  color: black;
+  filter: grayscale(0);
+}
+
+.card *:hover{
+  transform: scale(1);
+}
+
+.card {
+  margin: 50px auto;
+  background: white;
+  width: 20%;
+  max-height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 16px;
+}
+
+.card .image_back {
+  width: 100%;
+  height: 35%;
+  border-radius: 16px 16px 0 0;
+}
+
+.card .image_back img {
+  margin: 0;
+  border-radius: 16px 16px 0 0;
+  width: 100%;
+}
+
+.card .backgro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 65%;
+  border-radius: 0px 0px 16px 16px;
+}
+
+.image {
+  width: 100%;
+  margin-bottom: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.image img {
+  width: 180px;
+  position: absolute;
+  top: -115px;
+  border: 10px solid white;
+  border-radius: 50%;
+}
+
+.info {
+  padding: 10px;
+  font-family: cursive;
+  font-size: 15px;
+}

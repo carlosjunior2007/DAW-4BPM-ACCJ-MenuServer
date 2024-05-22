@@ -1,0 +1,32 @@
+/* Este es un comentario en CSS */
+/* Armenta Camarena Carlos Junior  Grupo: 4BPM */
+/* Fecha: 03/12/2024 */
+
+.tabla{
+  color: rgb(255, 255, 255);
+  width: 70%;
+}
+
+.tabla tr{
+    text-align: center;
+}
+
+.tabla tr:nth-child(even){
+    background-color: #0000ff63;
+}
+
+.tabla tr:nth-child(odd){
+    background-color: #ff000063;
+}
+
+.tabla tr td, .tabla tr th{
+    padding: 10px;
+}
+
+.tabla tr td:hover{
+    background-color: #00000063;
+}
+
+img{
+    border-radius: 16px;
+}

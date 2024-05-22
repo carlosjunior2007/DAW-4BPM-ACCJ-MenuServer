@@ -1,0 +1,31 @@
+/* Este es un comentario en CSS */
+/* Armenta Camarena Carlos Junior  Grupo: 4BPM */
+/* Fecha: 03/12/2024 */
+
+img {
+  width: 300px;
+  margin: 10px;
+  border-radius: 16px;
+}
+
+h3 a {
+  color: #000;
+  text-decoration: none;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 16px;
+  margin: 20px;
+}
+
+a:visited {
+  color: rgb(0, 0, 0);
+}
+
+.back {
+  border: none;
+  padding: 20px;
+  color: white !important;
+  border-radius: 16px;
+  text-decoration: none;
+  background-color: rgb(137, 24, 24);
+}

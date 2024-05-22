@@ -1,0 +1,17 @@
+/* Este es un comentario en CSS */
+/* Armenta Camarena Carlos Junior  Grupo: 4BPM */
+/* Fecha: 03/12/2024 */
+
+body{
+    background-color: rgb(255, 170, 0);
+}
+
+.foto {
+  width: 800px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px gray;
+}
+
+p{
+    text-shadow: 1.2px 1.2px 20px rgba(0, 0, 0, 0.541);
+}

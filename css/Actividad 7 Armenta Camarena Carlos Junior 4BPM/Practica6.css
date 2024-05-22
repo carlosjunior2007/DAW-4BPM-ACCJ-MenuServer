@@ -1,0 +1,44 @@
+/* Este es un comentario en CSS */
+/* Armenta Camarena Carlos Junior  Grupo: 4BPM */
+/* Fecha: 03/12/2024 */
+
+body {
+  background-color: mediumpurple;
+  color: white;
+  padding: 10px;
+}
+
+img {
+  filter: grayscale();
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+  -webkit-filter: grayscale();
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+}
+
+p {
+  align-items: left;
+  padding: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+img:hover {
+  filter: grayscale(0);
+  transform: scale(1.05);
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+}

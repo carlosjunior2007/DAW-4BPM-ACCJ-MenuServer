@@ -1,0 +1,43 @@
+/* Este es un comentario en CSS */
+/* Armenta Camarena Carlos Junior  Grupo: 4BPM */
+/* Fecha: 03/12/2024 */
+
+body {
+  background-color: rgba(100, 41, 41, 0.894);
+  color: white;
+  padding: 10px;
+}
+
+img,
+video {
+  border-radius: 16px;
+}
+
+* {
+  text-shadow: 1px 1px 20px white;
+}
+
+table th {
+  background-color: white;
+  padding: 5px;
+}
+
+table td {
+  background-color: rgba(255, 255, 255, 0.32);
+  text-align: center;
+  padding: 5px;
+}
+
+.reco {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.reconocimientos {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  padding: 40px;
+}

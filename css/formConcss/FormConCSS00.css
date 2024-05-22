@@ -1,0 +1,72 @@
+/* Este es un comentario en CSS */
+
+
+/*Armenta Camarena Carlos Junior 4BPM*/
+
+
+/*DAW 17 abr 2024*/
+
+
+/*A continuación le APLICAMOS CSS a FormConCSS (FormConCSS00.HTML) DESDE una Archivo CSS.(FormConCSS00.CSS)*/
+
+body {
+    background-image: url("F:/DAW/html/formConcss/IMG/fondo.gif");
+    /*fondo gif*/
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    color: white;
+    font-size: 22;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2 {
+    text-align: center;
+    color: #F7DC6F;
+}
+
+form {
+    background: rgba(0, 0, 0, 0.3);
+    width: 620px;
+    height: 730px;
+    margin: auto;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+fieldset {
+    float: left;
+    width: 44%;
+}
+
+input:focus {
+    border: 3px solid red;
+    background: #BFC9CA;
+}
+
+.enviar {
+    color: white;
+    font-weight: bold;
+    background-color: #616A6B;
+    width: 180px;
+    padding-bottom: 10px;
+    padding-left: 295px;
+    padding-right: 310px;
+    padding-top: 10px;
+    box-shadow: 8px 8px 8px #F5CBA7;
+}
+
+footer {
+    text-align: right;
+}
+
+#titulofrm {
+    font-family: Chiller;
+    color: white;
+    font-size: 50px;
+    margin-top: 0px;
+}
