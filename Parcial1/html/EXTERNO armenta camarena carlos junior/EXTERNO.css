@@ -1,0 +1,33 @@
+/* Este es un comentario en css */
+/* Me Armenta Camarenaa Carlos Carlos Junior Grupo: 4BPM */
+/* Daw                   Fecha: 3/13/2024 */
+/* A continuacion le aplicamos CSS al archivo EXTERNO.html Desde una Archivo CSS(EXTERNO.CSS) */
+
+body{
+    /* aplicamos color al cuerpo con */
+    background-color: rgb(233, 219, 219);
+    color: blue;
+    padding: 50px;
+    /* medidas en Px= Pixeles */
+}
+
+h1{
+    color:yellow
+    /* Aplicamos colos a la etiqueta h1 */
+}
+
+p{
+    font-size: 18px;
+}
+
+h3{
+    color:rgb(255, 72, 0)
+}
+
+ol{
+    background: white;
+    /* aplicamos al color del cuerpo de la lista */
+    color: #f30d0d;
+    padding: 25px;
+    width: 200px;
+}

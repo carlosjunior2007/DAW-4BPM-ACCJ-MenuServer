@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios</title>
+</head>
+
+<body>
+    <form action="URL" method="valor">...</form>
+    <hr />
+    <form action="">
+        <input type="control" atributo="valor">
+    </form>
+    <hr />
+    <form action="datos.php" method="get">
+        Nombre:<input type="text" name="nombre"> Apellido
+        <input type="text" name="apellido">
+    </form>
+    <hr />
+    <form action="edades.php" method="post">
+        ¿Edad?
+        <input type="radio" name="edad" value="menor"> Menor de 17
+        <input type="radio" name="edad" value="adulto">Entre 18 y 60
+        <input type="radio" name="edad" value="mayor de 61"> Mayor de 61
+    </form>
+    <hr />
+    <form action="hobbie.php" method="get">
+        ¿Pasatiempos?
+        <input type="checkbox" name="pasa" value="tv">TV
+        <input type="checkbox" name="pasa" value="libros">Libros
+        <input type="checkbox" name="pasa" value="musica">Musica
+        <input type="checkbox" name="pasa" value="otros">Otros
+    </form>
+    <hr />
+    <form action="verificacion.php" method="post">
+        Nombre:<input type="text" name="nombre"> Password:
+        <input type="password" name="pass">
+    </form>
+    <hr />
+    <form action="datos_personales.php" method="post">
+        Nombre:<input type="text" name="nombre"> Password:
+        <input type="password" name="secreto">
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+    </form>
+    <hr />
+    <form action="archivo.php" method="post">
+        Ingresa la foto: <input type="file" name="foto">
+    </form>
+    <hr />
+    <form action="oculto.php" method="post">
+        Nombre:<input type="text" name="nombre"> Password:
+        <input type="password" name="contra">
+        <input type="hidden" value="cookie">
+    </form>
+    <hr />
+    <form action="archivo.php" method="post">
+        Nombre:<input type="text" name="nombre"> Password:
+        <input type="password" name="contra">
+        <input type="image" src="F:\DAW\html\form\enviar.jpg" width="50px">
+    </form>
+    <hr />
+    <form action="continentes.php" method="get">
+        <select name="continente">
+            <option value="amarica">amrica</option>
+            <option value="asia">asia</option>
+            <option value="europa">europa</option>
+            <option value="oceania">oceania</option>
+            <option value="africa">africa</option>
+        </select>
+    </form>
+    <hr />
+    <form action="texto.php" method="post">
+        <textarea name="eltexto" cols="30" rows="5">
+            Aqui podemos ingresar un texto inroduccion si los deseamos.
+        </textarea>
+    </form>
+</body>
+
+</html>

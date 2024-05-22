@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+        Ejemplos formulario. Caracterizticas en formularios html5 con css
+    </title>
+    <link rel="stylesheet" href="F:\DAW\css\formConcss\FormConCSS00.css" />
+    <link rel="stylesheet" href="../../css/estilos_generales/main.css" />
+</head>
+
+<body>
+    <h1>Nuevas carecterizticas de HTML5 en formularios</h1>
+    <h2>
+        Esto es un ejemplo sobre las nuevas caracterizticas de HTML5 en formularios
+    </h2>
+    <form>
+        <h2 id="titulofrm">FORMULARIO</h2>
+        <p>
+            <label for="name">Nombre (obligatorio)</label>
+            <input type="text" name="name" id="name" placerholder="Armenta Camarena Carlos Junior" autofocus autocomplete required />
+        </p>
+        <p>
+            <label for="password">Contrasena</label>
+            <input type="password" name="password" id="password" placeholder="1500" pattern="[a-z]{3}[0-9]{4}" required />(Debe tener 3 letras seguido de 4 numeros)
+        </p>
+        <p>
+            <label for="phone">Telefono</label>
+            <input type="tel" name="phone" id="phone" placeholder="+526644257324" />
+        </p>
+        <p>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="ejemplo@gmail.com" />
+        </p>
+        <p>
+            <label for="website">Pagina web</label>
+            <input type="url" name="website" id="website" placeholder="http://cetis156.nds.mx/" />
+        </p>
+        <p>
+            <label for="numbereexample">N de temas</label>
+            <input type="number" name="numberexample" id="numberexample" min="2" max="14" placeholder="2" step="2" />(Entre 2 y 14, solo pares)
+        </p>
+        <p>
+            <label for="deliverydate">Fecha de envio</label>
+            <input type="date" name="deliverydate" id="deliverydate" min="2023-01-01" />(Minimo del primero de enero de 2023)
+        </p>
+        <p>
+            <label for="colorexample">Color de item</label>
+            <input type="color" name="coloexample" id="colorexample" value="#1A33FF" />
+        </p>
+        <p>
+            <label for="search">Buscar</label>
+            <input type="search" name="search" id="search" />
+        </p>
+        <p>
+            <label for="points">Rango de valores</label>
+            <input type="range" name="points" id="points" min="1" max="10" />(Entre 1 y 10
+        </p>
+        <p>
+            <fieldset>
+                <legend>Selecionar una prioridad</legend>
+                <p><label><input type="radio" name="priority" id="Baja" checked>Baja</label></p>
+                <p><label><input type="radio" name="priority" id="media">Media</label></p>
+                <p><label><input type="radio" name="priority" id="Alta">Alta</label></p>
+            </fieldset>
+        </p>
+        <p>
+            <fieldset>
+                <legend>Seleciona un tipo de envio</legend>
+                <p><label><input type="checkbox" name="deliverytype" id="urgente" checked>Urgente</label></p>
+                <p><label><input type="checkbox" name="deliverytype" id="acuso">Con acuse de recivo</label></p>
+                <p><label><input type="checkbox" name="deliverytype" id="reembolso">Contra rembolso</label></p>
+            </fieldset>
+        </p>
+        <input type="submit" class="enviar" value="enviar">
+    </form>
+
+    <footer class="card">
+        <div class="image_back">
+            <img src="../fondo_footer/fondo.avif" />
+        </div>
+        <div class="backgro">
+            <div class="image">
+                <img src="../Actividad 9 Armenta Camarena Carlos Junior 4BPM/imagenes/yo.jpg" />
+            </div>
+            <div class="info">
+                <p>Alumno: Armenta Camarena Carlos Junior</p>
+                <p>Grupo: 4BPM</p>
+                <p>Materia: <b>D</b>esarrollo de <b>A</b>plicaciones <b>W</b>eb</p>
+                <p>Fecha:16/04/2024</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
